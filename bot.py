@@ -7,8 +7,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-TELEGRAM_TOKEN = os.getenv("8938162529:AAF7GIF5nTlqt1B2BvssOQ4Zxcm_UnKv5bk")
-GIGACHAT_AUTH_KEY = os.getenv("MDFhMGIzNjgtODg0Mi03NDJkLThlZGYtODgzNmVlYzIxMjIzOjc2YzUyYzliLWFjNDYtNGY2NC1hZjdhLWQ0ZGJhMzQ4M2NiMg==")
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKENk")
+GIGACHAT_AUTH_KEY = os.getenv("GIGACHAT_AUTH_KEY")
 GIGACHAT_SCOPE = os.getenv("GIGACHAT_SCOPE", "GIGACHAT_API_PERS")
 
 OAUTH_URL = "https://ngw.devices.sberbank.ru:9443/api/v2/oauth"
